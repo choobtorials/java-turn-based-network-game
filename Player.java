@@ -8,7 +8,9 @@ import java.util.ArrayList;
 /**
 * The Player class contains the GUI code for this simple turn-based game.
 * It also contains an inner class called ClientSideConnection that
-* connects to the game server. This is the code from the video
+* connects to the game server. 
+* 
+* This is the code from the video:
 * Creating a simple turn-based network game in Java (https://youtu.be/HQoWN28H80w).
 *
 * If you found this helpful, would really appreciate if you could support the channel
