@@ -1,6 +1,24 @@
 import java.io.*;
 import java.net.*;
 
+/**
+* The GameServer class contains the network code for this simple turn-based game.
+* It also contains an inner class called ServerSideConnection that
+* implements the runnable interface. This inner class is responsible for managing the
+* connection of the two players that connect to the server. 
+*
+* This is the code from the video:
+* Creating a simple turn-based network game in Java (https://youtu.be/HQoWN28H80w).
+*
+* If you found this helpful, would really appreciate if you could support the channel
+* by subscribing and sharing the link with others.
+*
+* YT: youtube.com/choobtorials
+* Twitter: twitter.com/choobtorials
+*
+* @author choob
+*/
+
 public class GameServer {
 
     private ServerSocket ss;
